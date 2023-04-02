@@ -1,6 +1,6 @@
-import Foundation
 
-/// "이것이 코딩테스트다" 3-1 큰 수의 법칙
+
+/// "이것이 코딩테스트다" 3-1 거스름돈
 /// - Parameters:
 ///   - first: 거스름돈 총 액수
 func totalMarginCoin(_ first: String){

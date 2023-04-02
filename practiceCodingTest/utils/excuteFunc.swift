@@ -1,9 +1,9 @@
 import Foundation
 
-func excuteFunc(_ firstLine: String, _ excuteFunc: (String) -> ()){
+func excuteFunc(_ firstLine: String, _ callBack: (String) -> ()){
     let start = DispatchTime.now()
     
-    excuteFunc(firstLine)
+    callBack(firstLine)
     
     let end = DispatchTime.now()
     let timeElapsed = end.uptimeNanoseconds - start.uptimeNanoseconds
@@ -11,13 +11,22 @@ func excuteFunc(_ firstLine: String, _ excuteFunc: (String) -> ()){
 }
 
 
-func excuteFunc(_ firstLine: String, _ secondLine: String, _ excuteFunc: (String, String) -> ()){
+func excuteFunc(_ firstLine: String, _ secondLine: String, _ callBack: (String, String) -> ()){
     let start = DispatchTime.now()
     
-    excuteFunc(firstLine, secondLine)
+    callBack(firstLine, secondLine)
     
     let end = DispatchTime.now()
     let timeElapsed = end.uptimeNanoseconds - start.uptimeNanoseconds
     print("time: \(Double(timeElapsed) * 0.000001)ms")
 }
 
+func excuteFunc(_ int2DArray: [[Int]], _ callBack: ([[Int]]) -> ()){
+    let start = DispatchTime.now()
+    
+    callBack(int2DArray)
+    
+    let end = DispatchTime.now()
+    let timeElapsed = end.uptimeNanoseconds - start.uptimeNanoseconds
+    print("time: \(Double(timeElapsed) * 0.000001)ms")
+}

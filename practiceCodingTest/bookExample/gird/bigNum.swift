@@ -1,5 +1,3 @@
-import Foundation
-
 
 /// "이것이 코딩테스트다" 3-2 큰 수의 법칙
 /// - Parameters:
