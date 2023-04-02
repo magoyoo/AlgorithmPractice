@@ -85,12 +85,12 @@
 		3E6E3AB829D9A4700088F983 /* bookExample */ = {
 			isa = PBXGroup;
 			children = (
-				3E6E3ABB29D9A6370088F983 /* gird */,
+				3E6E3ABB29D9A6370088F983 /* greedy */,
 			);
 			path = bookExample;
 			sourceTree = "<group>";
 		};
-		3E6E3ABB29D9A6370088F983 /* gird */ = {
+		3E6E3ABB29D9A6370088F983 /* greedy */ = {
 			isa = PBXGroup;
 			children = (
 				3E6E3AB929D9A5B00088F983 /* bigNum.swift */,
@@ -98,7 +98,7 @@
 				3E6E3ABE29D9ABB90088F983 /* numberCardGame.swift */,
 				3E6E3AC029D9B6380088F983 /* untilOne.swift */,
 			);
-			path = gird;
+			path = greedy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
