@@ -55,6 +55,8 @@ import Foundation
 //)
 
 // MARK: - Chapter4 구현
+
+// 4-1
 //let firstLine = readLine()!
 //let secondLine = readLine()!
 //
@@ -62,6 +64,12 @@ import Foundation
 //excuteFunc(firstLine, secondLine, searchLrud)
 
 
+//let firstLine = readLine()!
+//
+//excuteFunc(firstLine, find3)
+
+// 4-2
+
 let firstLine = readLine()!
 
-excuteFunc(firstLine, find3)
+excuteFunc(firstLine, loyalNight2)

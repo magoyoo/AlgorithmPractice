@@ -15,6 +15,7 @@
 		3E6E3AC129D9B6380088F983 /* untilOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3AC029D9B6380088F983 /* untilOne.swift */; };
 		3E6E3AC429DA75A40088F983 /* lrud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3AC329DA75A40088F983 /* lrud.swift */; };
 		3E6E3AC629DA7BCD0088F983 /* clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3AC529DA7BCD0088F983 /* clock.swift */; };
+		3E6E3AC829DAB1110088F983 /* royalNight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3AC729DAB1110088F983 /* royalNight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		3E6E3AC029D9B6380088F983 /* untilOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = untilOne.swift; sourceTree = "<group>"; };
 		3E6E3AC329DA75A40088F983 /* lrud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lrud.swift; sourceTree = "<group>"; };
 		3E6E3AC529DA7BCD0088F983 /* clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clock.swift; sourceTree = "<group>"; };
+		3E6E3AC729DAB1110088F983 /* royalNight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = royalNight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				3E6E3AC329DA75A40088F983 /* lrud.swift */,
 				3E6E3AC529DA7BCD0088F983 /* clock.swift */,
+				3E6E3AC729DAB1110088F983 /* royalNight.swift */,
 			);
 			path = Chapter4;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				3E6E3AAF29D96D7C0088F983 /* main.swift in Sources */,
 				3E6E3AC629DA7BCD0088F983 /* clock.swift in Sources */,
 				3E6E3AB729D9A2150088F983 /* excuteFunc.swift in Sources */,
+				3E6E3AC829DAB1110088F983 /* royalNight.swift in Sources */,
 				3E6E3ABA29D9A5B00088F983 /* bigNum.swift in Sources */,
 				3E6E3ABD29D9A7550088F983 /* totalMarginCoin.swift in Sources */,
 				3E6E3AC129D9B6380088F983 /* untilOne.swift in Sources */,
