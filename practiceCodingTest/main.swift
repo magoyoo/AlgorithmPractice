@@ -55,7 +55,13 @@ import Foundation
 //)
 
 // MARK: - Chapter4 구현
-let firstLine = readLine()!
-let secondLine = readLine()!
+//let firstLine = readLine()!
+//let secondLine = readLine()!
+//
+//
+//excuteFunc(firstLine, secondLine, searchLrud)
 
-searchLrud(firstLine, secondLine)
+
+let firstLine = readLine()!
+
+excuteFunc(firstLine, find3)

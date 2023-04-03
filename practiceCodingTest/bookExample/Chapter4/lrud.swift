@@ -1,10 +1,3 @@
-//
-//  lrud.swift
-//  PracticeCodingTest
-//
-//  Created by 김유준 on 2023/04/03.
-//
-
 import Foundation
 
 func searchLrud(_ firstLine: String, _ secondLine: String){
