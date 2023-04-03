@@ -70,6 +70,27 @@ import Foundation
 
 // 4-2
 
-let firstLine = readLine()!
+//let firstLine = readLine()!
+//
+//excuteFunc(firstLine, loyalNight2)
 
-excuteFunc(firstLine, loyalNight2)
+// 4-3
+
+let firstLine = readLine()!
+let secondLine = readLine()!
+var table: [[Int]] = []
+let firstLineX = Int(firstLine.split(separator: " ")[0])!
+
+
+for _ in 0..<firstLineX {
+    let input = readLine()!
+        .split(separator: " ")
+        .compactMap { Int($0) }
+
+    table.append(input)
+}
+
+excuteFunc(firstLine, secondLine, table, developmentGame)
+
+
+

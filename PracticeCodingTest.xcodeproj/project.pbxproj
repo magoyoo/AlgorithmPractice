@@ -16,6 +16,7 @@
 		3E6E3AC429DA75A40088F983 /* lrud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3AC329DA75A40088F983 /* lrud.swift */; };
 		3E6E3AC629DA7BCD0088F983 /* clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3AC529DA7BCD0088F983 /* clock.swift */; };
 		3E6E3AC829DAB1110088F983 /* royalNight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3AC729DAB1110088F983 /* royalNight.swift */; };
+		3E6E3ACA29DAE4390088F983 /* developmentGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3AC929DAE4390088F983 /* developmentGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		3E6E3AC329DA75A40088F983 /* lrud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lrud.swift; sourceTree = "<group>"; };
 		3E6E3AC529DA7BCD0088F983 /* clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clock.swift; sourceTree = "<group>"; };
 		3E6E3AC729DAB1110088F983 /* royalNight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = royalNight.swift; sourceTree = "<group>"; };
+		3E6E3AC929DAE4390088F983 /* developmentGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = developmentGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				3E6E3AC329DA75A40088F983 /* lrud.swift */,
 				3E6E3AC529DA7BCD0088F983 /* clock.swift */,
 				3E6E3AC729DAB1110088F983 /* royalNight.swift */,
+				3E6E3AC929DAE4390088F983 /* developmentGame.swift */,
 			);
 			path = Chapter4;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E6E3ABF29D9ABB90088F983 /* numberCardGame.swift in Sources */,
+				3E6E3ACA29DAE4390088F983 /* developmentGame.swift in Sources */,
 				3E6E3AAF29D96D7C0088F983 /* main.swift in Sources */,
 				3E6E3AC629DA7BCD0088F983 /* clock.swift in Sources */,
 				3E6E3AB729D9A2150088F983 /* excuteFunc.swift in Sources */,
