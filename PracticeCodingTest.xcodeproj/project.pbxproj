@@ -17,6 +17,10 @@
 		3E6E3AC629DA7BCD0088F983 /* clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3AC529DA7BCD0088F983 /* clock.swift */; };
 		3E6E3AC829DAB1110088F983 /* royalNight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3AC729DAB1110088F983 /* royalNight.swift */; };
 		3E6E3ACA29DAE4390088F983 /* developmentGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3AC929DAE4390088F983 /* developmentGame.swift */; };
+		3E6E3ACD29DB13F70088F983 /* practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3ACC29DB13F70088F983 /* practice.swift */; };
+		3E6E3ACF29DC74DF0088F983 /* ice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3ACE29DC74DF0088F983 /* ice.swift */; };
+		3E6E3AD129DDA2E30088F983 /* dfs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3AD029DDA2E30088F983 /* dfs.swift */; };
+		3E6E3AD529DED6370088F983 /* SumOfConsecutivePulseSubsequences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3AD429DED6370088F983 /* SumOfConsecutivePulseSubsequences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +47,10 @@
 		3E6E3AC529DA7BCD0088F983 /* clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clock.swift; sourceTree = "<group>"; };
 		3E6E3AC729DAB1110088F983 /* royalNight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = royalNight.swift; sourceTree = "<group>"; };
 		3E6E3AC929DAE4390088F983 /* developmentGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = developmentGame.swift; sourceTree = "<group>"; };
+		3E6E3ACC29DB13F70088F983 /* practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice.swift; sourceTree = "<group>"; };
+		3E6E3ACE29DC74DF0088F983 /* ice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ice.swift; sourceTree = "<group>"; };
+		3E6E3AD029DDA2E30088F983 /* dfs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dfs.swift; sourceTree = "<group>"; };
+		3E6E3AD429DED6370088F983 /* SumOfConsecutivePulseSubsequences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfConsecutivePulseSubsequences.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,7 @@
 		3E6E3AAD29D96D7C0088F983 /* practiceCodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				3E6E3AD229DED3470088F983 /* programmers */,
 				3E6E3AAE29D96D7C0088F983 /* main.swift */,
 				3E6E3AB829D9A4700088F983 /* bookExample */,
 				3E6E3AB529D9A1630088F983 /* utils */,
@@ -93,6 +102,7 @@
 		3E6E3AB829D9A4700088F983 /* bookExample */ = {
 			isa = PBXGroup;
 			children = (
+				3E6E3ACB29DB13EA0088F983 /* Chapter5 */,
 				3E6E3AC229DA74B10088F983 /* Chapter4 */,
 				3E6E3ABB29D9A6370088F983 /* Chapter3 */,
 			);
@@ -119,6 +129,32 @@
 				3E6E3AC929DAE4390088F983 /* developmentGame.swift */,
 			);
 			path = Chapter4;
+			sourceTree = "<group>";
+		};
+		3E6E3ACB29DB13EA0088F983 /* Chapter5 */ = {
+			isa = PBXGroup;
+			children = (
+				3E6E3ACC29DB13F70088F983 /* practice.swift */,
+				3E6E3ACE29DC74DF0088F983 /* ice.swift */,
+				3E6E3AD029DDA2E30088F983 /* dfs.swift */,
+			);
+			path = Chapter5;
+			sourceTree = "<group>";
+		};
+		3E6E3AD229DED3470088F983 /* programmers */ = {
+			isa = PBXGroup;
+			children = (
+				3E6E3AD329DED5DA0088F983 /* Level3 */,
+			);
+			path = programmers;
+			sourceTree = "<group>";
+		};
+		3E6E3AD329DED5DA0088F983 /* Level3 */ = {
+			isa = PBXGroup;
+			children = (
+				3E6E3AD429DED6370088F983 /* SumOfConsecutivePulseSubsequences.swift */,
+			);
+			path = Level3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,13 +216,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E6E3ABF29D9ABB90088F983 /* numberCardGame.swift in Sources */,
+				3E6E3AD129DDA2E30088F983 /* dfs.swift in Sources */,
 				3E6E3ACA29DAE4390088F983 /* developmentGame.swift in Sources */,
 				3E6E3AAF29D96D7C0088F983 /* main.swift in Sources */,
 				3E6E3AC629DA7BCD0088F983 /* clock.swift in Sources */,
+				3E6E3ACD29DB13F70088F983 /* practice.swift in Sources */,
+				3E6E3ACF29DC74DF0088F983 /* ice.swift in Sources */,
 				3E6E3AB729D9A2150088F983 /* excuteFunc.swift in Sources */,
 				3E6E3AC829DAB1110088F983 /* royalNight.swift in Sources */,
 				3E6E3ABA29D9A5B00088F983 /* bigNum.swift in Sources */,
 				3E6E3ABD29D9A7550088F983 /* totalMarginCoin.swift in Sources */,
+				3E6E3AD529DED6370088F983 /* SumOfConsecutivePulseSubsequences.swift in Sources */,
 				3E6E3AC129D9B6380088F983 /* untilOne.swift in Sources */,
 				3E6E3AC429DA75A40088F983 /* lrud.swift in Sources */,
 			);

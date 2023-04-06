@@ -76,21 +76,43 @@ import Foundation
 
 // 4-3
 
-let firstLine = readLine()!
-let secondLine = readLine()!
-var table: [[Int]] = []
-let firstLineX = Int(firstLine.split(separator: " ")[0])!
+//let firstLine = readLine()!
+//let secondLine = readLine()!
+//var table: [[Int]] = []
+//let firstLineX = Int(firstLine.split(separator: " ")[0])!
+//
+//
+//for _ in 0..<firstLineX {
+//    let input = readLine()!
+//        .split(separator: " ")
+//        .compactMap { Int($0) }
+//
+//    table.append(input)
+//}
+//
+//excuteFunc(firstLine, secondLine, table, developmentGame)
+
+//
+//let data = factorialTest(1)
+//print(data)
 
 
-for _ in 0..<firstLineX {
-    let input = readLine()!
-        .split(separator: " ")
-        .compactMap { Int($0) }
 
-    table.append(input)
-}
+// var visited = [1, 2, 7, 6, 8, 3, 4, 5]
+// var visited = [1, 2, 3, 8, 7, 4, 5, 6]
 
-excuteFunc(firstLine, secondLine, table, developmentGame)
+let graph = [
+    [],
+    [2, 3, 8],
+    [1, 7],
+    [1, 4, 5],
+    [3, 5],
+    [3, 4],
+    [7],
+    [2, 6, 8],
+    [1, 7]
+]
 
+var visited = [Bool](repeating: false, count: graph.count)
 
-
+bfs(graph, 1, &visited)
