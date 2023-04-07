@@ -133,6 +133,10 @@ import Foundation
 //000001
 //111111
 //111111
-let scores = [[5,7],[11,7],[10, 6], [9, 7]]
-let data = performanceAppraisalSolution(scores)
-print(data)
+//let scores = [[5,7],[11,7],[10, 6], [9, 7]]
+//let data = performanceAppraisalSolution(scores)
+//print(data)
+
+// 이진 탐색
+testBinarySearch()
+
