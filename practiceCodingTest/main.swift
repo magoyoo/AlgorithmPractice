@@ -138,5 +138,13 @@ import Foundation
 //print(data)
 
 // 이진 탐색
-testBinarySearch()
+//testBinarySearch()
+
+
+// MARK: - Chapter7
+
+let totalPart = [8, 3, 7, 9, 2]
+let targetPart = [5, 7, 9]
+
+print(searchPart(totalPart, targetPart))
 
