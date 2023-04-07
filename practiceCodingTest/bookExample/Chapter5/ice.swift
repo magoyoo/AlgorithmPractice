@@ -1,5 +1,61 @@
 import Foundation
 
+func countIceCreams2(){
+    let nm = readLine()!.split(separator: " ").map { Int(String($0))! }
+    let n = nm[0]
+    let m = nm[1]
+    
+    var graph = [[Int]]()
+    
+    for _ in 0..<n {
+        let row = readLine()!.map { Int(String($0))! }
+        graph.append(row)
+    }
+    
+    func dfs(_ x: Int, _ y: Int){
+        if x < 0 || y < 0 || x >= n || y >= m {
+            return
+        }
+        if graph[x][y] == 0 {
+            graph[x][y] = 1
+            dfs(x+1, y)
+            dfs(x-1, y)
+            dfs(x, y+1)
+            dfs(x, y-1)
+        }
+    }
+    
+    var count = 0
+    
+    for i in 0..<n {
+        for j in 0..<m {
+            if graph[i][j] == 0 {
+                dfs(i, j)
+                count += 1
+            }
+        }
+    }
+    print(count)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 func countIceCreams() {
     let nm = readLine()!.split(separator: " ").map{ Int(String($0))! }
     let n = nm[0]

@@ -82,6 +82,10 @@ import Foundation
 //let firstLineX = Int(firstLine.split(separator: " ")[0])!
 //
 //
+
+// MARK: - Chapter5 구현
+
+// 이론
 //for _ in 0..<firstLineX {
 //    let input = readLine()!
 //        .split(separator: " ")
@@ -101,18 +105,34 @@ import Foundation
 // var visited = [1, 2, 7, 6, 8, 3, 4, 5]
 // var visited = [1, 2, 3, 8, 7, 4, 5, 6]
 
-let graph = [
-    [],
-    [2, 3, 8],
-    [1, 7],
-    [1, 4, 5],
-    [3, 5],
-    [3, 4],
-    [7],
-    [2, 6, 8],
-    [1, 7]
-]
+//let graph = [
+//    [],
+//    [2, 3, 8],
+//    [1, 7],
+//    [1, 4, 5],
+//    [3, 5],
+//    [3, 4],
+//    [7],
+//    [2, 6, 8],
+//    [1, 7]
+//]
+//
+//var visited = [Bool](repeating: false, count: graph.count)
+//
+//bfs(graph, 1, &visited)
 
-var visited = [Bool](repeating: false, count: graph.count)
+// 음료수 얼려 먹기
+//countIceCreams2()
 
-bfs(graph, 1, &visited)
+// 미로 탈출
+//shortestDistance()
+
+// 5 6
+//101010
+//111111
+//000001
+//111111
+//111111
+let scores = [[5,7],[11,7],[10, 6], [9, 7]]
+let data = performanceAppraisalSolution(scores)
+print(data)
