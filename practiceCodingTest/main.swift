@@ -143,8 +143,14 @@ import Foundation
 
 // MARK: - Chapter7
 
-let totalPart = [8, 3, 7, 9, 2]
-let targetPart = [5, 7, 9]
+//let totalPart = [8, 3, 7, 9, 2]
+//let targetPart = [5, 7, 9]
+//
+//print(searchPart(totalPart, targetPart))
+//[1, 2, 3, 4, 5]    7    [2, 3]
+//[1, 1, 1, 2, 3, 4, 5]    5    [6, 6]
+//[2, 2, 2, 2, 2]    6    [0, 2]
 
-print(searchPart(totalPart, targetPart))
+let result = searchSubsequence([1, 1, 1, 2, 3, 4, 5], 5)
 
+print(result)
