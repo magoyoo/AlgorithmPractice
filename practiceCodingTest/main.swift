@@ -151,6 +151,18 @@ import Foundation
 //[1, 1, 1, 2, 3, 4, 5]    5    [6, 6]
 //[2, 2, 2, 2, 2]    6    [0, 2]
 
-let result = searchSubsequence([1, 1, 1, 2, 3, 4, 5], 5)
+//let result = searchSubsequence([1, 1, 1, 2, 3, 4, 5], 5)
+//
+//print(result)
+
+//makeOne(26)
+
+//
+//let result = antWarrior([2, 7, 9, 3, 1])
+//
+//print(result)
+
+
+let result = floorConstruction(3)
 
 print(result)
