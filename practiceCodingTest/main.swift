@@ -163,6 +163,11 @@ import Foundation
 //print(result)
 
 
-let result = floorConstruction(3)
+//let result = floorConstruction(3)
+//
+//print(result)
+
+let result = efficientMoney(3, 4, [3, 5, 7])
+
 
 print(result)
