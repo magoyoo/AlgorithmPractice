@@ -167,7 +167,7 @@ import Foundation
 //
 //print(result)
 
-let result = efficientMoney(3, 4, [3, 5, 7])
+let result = player(["mumu", "soe", "poe", "kai", "mine"], ["kai", "kai", "mine", "mine"])
 
 
 print(result)

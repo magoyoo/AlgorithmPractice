@@ -11,6 +11,7 @@
 		3E6D72CC29E178AC002D9CC4 /* antWarrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6D72CB29E178AC002D9CC4 /* antWarrior.swift */; };
 		3E6D72CE29E187C2002D9CC4 /* floorConstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6D72CD29E187C2002D9CC4 /* floorConstruction.swift */; };
 		3E6D72D029E18C42002D9CC4 /* efficientMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6D72CF29E18C42002D9CC4 /* efficientMoney.swift */; };
+		3E6D72D329E1B2CC002D9CC4 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6D72D229E1B2CC002D9CC4 /* player.swift */; };
 		3E6E3AAF29D96D7C0088F983 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3AAE29D96D7C0088F983 /* main.swift */; };
 		3E6E3AB729D9A2150088F983 /* excuteFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3AB629D9A2150088F983 /* excuteFunc.swift */; };
 		3E6E3ABA29D9A5B00088F983 /* bigNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E3AB929D9A5B00088F983 /* bigNum.swift */; };
@@ -49,6 +50,7 @@
 		3E6D72CB29E178AC002D9CC4 /* antWarrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = antWarrior.swift; sourceTree = "<group>"; };
 		3E6D72CD29E187C2002D9CC4 /* floorConstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floorConstruction.swift; sourceTree = "<group>"; };
 		3E6D72CF29E18C42002D9CC4 /* efficientMoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = efficientMoney.swift; sourceTree = "<group>"; };
+		3E6D72D229E1B2CC002D9CC4 /* player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
 		3E6E3AAB29D96D7C0088F983 /* PracticeCodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeCodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6E3AAE29D96D7C0088F983 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3E6E3AB629D9A2150088F983 /* excuteFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = excuteFunc.swift; sourceTree = "<group>"; };
@@ -91,6 +93,14 @@
 				3E6D72CF29E18C42002D9CC4 /* efficientMoney.swift */,
 			);
 			path = Chapter8;
+			sourceTree = "<group>";
+		};
+		3E6D72D129E1B2C1002D9CC4 /* Level1 */ = {
+			isa = PBXGroup;
+			children = (
+				3E6D72D229E1B2CC002D9CC4 /* player.swift */,
+			);
+			path = Level1;
 			sourceTree = "<group>";
 		};
 		3E6E3AA229D96D7C0088F983 = {
@@ -176,6 +186,7 @@
 		3E6E3AD229DED3470088F983 /* programmers */ = {
 			isa = PBXGroup;
 			children = (
+				3E6D72D129E1B2C1002D9CC4 /* Level1 */,
 				3E6E3ADF29E06D990088F983 /* Level2 */,
 				3E6E3AD329DED5DA0088F983 /* Level3 */,
 			);
@@ -270,6 +281,7 @@
 				3E6E3AD129DDA2E30088F983 /* dfs.swift in Sources */,
 				3E6E3ACA29DAE4390088F983 /* developmentGame.swift in Sources */,
 				3E6E3AE129E06DB00088F983 /* 연속된 부분 수열의 합.swift in Sources */,
+				3E6D72D329E1B2CC002D9CC4 /* player.swift in Sources */,
 				3E6E3AAF29D96D7C0088F983 /* main.swift in Sources */,
 				3E6E3AD929DF001C0088F983 /* performanceAppraisal.swift in Sources */,
 				3E6D72CE29E187C2002D9CC4 /* floorConstruction.swift in Sources */,
