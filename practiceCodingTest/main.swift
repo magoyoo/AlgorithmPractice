@@ -167,7 +167,15 @@ import Foundation
 //
 //print(result)
 
-let result = player(["mumu", "soe", "poe", "kai", "mine"], ["kai", "kai", "mine", "mine"])
+//let result = player(["mumu", "soe", "poe", "kai", "mine"], ["kai", "kai", "mine", "mine"])
+//
+//
+//print(result)
 
+//let result = memoryScore(["may", "kein", "kain", "radi"], [5, 10, 1, 3], [["may", "kein", "kain", "radi"],["may", "kein", "brin", "deny"], ["kon", "kain", "may", "coni"]])
+//
+//print(result)
+
+let result = babbling(["ayaye", "ayaye", "uuuma", "ye", "yemawoo", "ayaa"])
 
 print(result)

@@ -7,15 +7,15 @@ func searchSubsequence(_ sequence: [Int], _ k: Int) -> [Int] {
     var result: [Int] = Array(repeating: 0, count: 2)
     var range: Int = -1
     
-    let newSequence = [0] + sequence
+    let new = [0] + sequence
     
-    var prefixSum = Array(repeating: 0, count: newSequence.count)
+    var prefixSum = Array(repeating: 0, count: new.count)
     
-    for i in 1..<newSequence.count {
-        prefixSum[i] = prefixSum[i - 1] + newSequence[i]
+    for i in 1..<new.count {
+        prefixSum[i] = prefixSum[i - 1] + new[i]
     }
     
-    while startIndex <= endIndex && endIndex < newSequence.count {
+    while startIndex <= endIndex && endIndex < new.count {
         let check = prefixSum[endIndex] - prefixSum[startIndex - 1]
         if check < k {
             endIndex += 1
