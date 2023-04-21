@@ -1,12 +1,12 @@
 import Foundation
 
-let INF = Int(1e9)
-var graph = [[(Int, Int)]]() // 주어진 그래프
-var visited = [Bool]() // 방문 여부
-var distance = [Int]() // 최소값 모음
+fileprivate let INF = Int(1e9)
+fileprivate var graph = [[(Int, Int)]]() // 주어진 그래프
+fileprivate var visited = [Bool]() // 방문 여부
+fileprivate var distance = [Int]() // 최소값 모음
 
 // 방문하지 않은 노드 중에서, 가장 최단 거리가 짧은 노드의 번호를 반환
-func getSmallestNode() -> Int {
+fileprivate func getSmallestNode() -> Int {
     var minValue = INF
     var index = 0
     for i in 1...graph.count-1 {
@@ -18,7 +18,7 @@ func getSmallestNode() -> Int {
     return index
 }
 
-func dijkstra(_ start: Int) {
+fileprivate func dijkstra(_ start: Int) {
     distance[start] = 0
     visited[start] = true
     
