@@ -1,19 +1,13 @@
 import Foundation
 
 
-fileprivate let graph: [[(Int, Int)]] = [
-    [], // 0
-    [(2, 2), (4, 1), (5, 3)], // 1
-    [(3, 3), (4, 2)], // 2
-    [(2, 3), (6, 5)], // 3
-    [(3, 3), (5, 1)], // 4
-    [(3, 1), (6, 2)], // 5
-    [] // 6
+fileprivate let graph: [[Int]] = [
+    [0, 4, Int.max, 6],
+    [3, 0, 7, Int.max],
+    [5, Int.max, 0, 4],
+    [Int.max, Int.max, 2, 0]
 ]
 
-fileprivate let startNode: Int = 1
+fileprivate let numNodes: Int = 4
 
-print(improvedDijkstra(graph, startNode))
-
-
-//[9223372036854775807, 0, 2, 3, 1, 2, 4]
+print(floydWarshall(graph, numNodes))
