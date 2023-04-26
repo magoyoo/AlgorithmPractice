@@ -59,6 +59,7 @@
 		3EAD6DAB29F8D20D004F7AEA /* 문자 리스트를 문자열로 변환하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6DAA29F8D20D004F7AEA /* 문자 리스트를 문자열로 변환하기.swift */; };
 		3EAD6DAD29F8D41E004F7AEA /* 정수 찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6DAC29F8D41E004F7AEA /* 정수 찾기.swift */; };
 		3EAD6DAF29F8D5BB004F7AEA /* 문자열 정수의 합.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6DAE29F8D5BB004F7AEA /* 문자열 정수의 합.swift */; };
+		3EAD6DB129F94B5A004F7AEA /* 전보.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6DB029F94B5A004F7AEA /* 전보.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -127,6 +128,7 @@
 		3EAD6DAA29F8D20D004F7AEA /* 문자 리스트를 문자열로 변환하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자 리스트를 문자열로 변환하기.swift"; sourceTree = "<group>"; };
 		3EAD6DAC29F8D41E004F7AEA /* 정수 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "정수 찾기.swift"; sourceTree = "<group>"; };
 		3EAD6DAE29F8D5BB004F7AEA /* 문자열 정수의 합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열 정수의 합.swift"; sourceTree = "<group>"; };
+		3EAD6DB029F94B5A004F7AEA /* 전보.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "전보.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,6 +316,7 @@
 				3EAD6D9029F2A0BD004F7AEA /* 기본 다익스트라.swift */,
 				3EAD6D9429F2D9B7004F7AEA /* 플로이드 워셜.swift */,
 				3EAD6D9629F4FFBB004F7AEA /* 미래도시.swift */,
+				3EAD6DB029F94B5A004F7AEA /* 전보.swift */,
 			);
 			path = Chapter9;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				3E6E3AB729D9A2150088F983 /* excuteFunc.swift in Sources */,
 				3E49F1E929E57C06009F4779 /* 문자열 밀기.swift in Sources */,
 				3E6E3ADE29E062E90088F983 /* searchPart.swift in Sources */,
+				3EAD6DB129F94B5A004F7AEA /* 전보.swift in Sources */,
 				3E6D72D029E18C42002D9CC4 /* efficientMoney.swift in Sources */,
 				3E6D72CA29E15EAF002D9CC4 /* makeOne.swift in Sources */,
 				3EAD6D6029F182BD004F7AEA /* MaxHeap.swift in Sources */,
