@@ -62,6 +62,7 @@
 		3EAD6DB129F94B5A004F7AEA /* 전보.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6DB029F94B5A004F7AEA /* 전보.swift */; };
 		3EAD6DB429FA4224004F7AEA /* 서로소 집합.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6DB329FA4224004F7AEA /* 서로소 집합.swift */; };
 		3EAD6DB729FA4EA8004F7AEA /* DisjointSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6DB629FA4EA8004F7AEA /* DisjointSet.swift */; };
+		3EAD6DBB29FA74E8004F7AEA /* 크루스칼 알고리즘.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6DBA29FA74E8004F7AEA /* 크루스칼 알고리즘.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -133,6 +134,7 @@
 		3EAD6DB029F94B5A004F7AEA /* 전보.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "전보.swift"; sourceTree = "<group>"; };
 		3EAD6DB329FA4224004F7AEA /* 서로소 집합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "서로소 집합.swift"; sourceTree = "<group>"; };
 		3EAD6DB629FA4EA8004F7AEA /* DisjointSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisjointSet.swift; sourceTree = "<group>"; };
+		3EAD6DBA29FA74E8004F7AEA /* 크루스칼 알고리즘.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "크루스칼 알고리즘.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,6 +350,7 @@
 			isa = PBXGroup;
 			children = (
 				3EAD6DB329FA4224004F7AEA /* 서로소 집합.swift */,
+				3EAD6DBA29FA74E8004F7AEA /* 크루스칼 알고리즘.swift */,
 			);
 			path = Chapter10;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				3EAD6DA329F6C525004F7AEA /* 공백으로 구분하기 1.swift in Sources */,
 				3E6E3ACA29DAE4390088F983 /* developmentGame.swift in Sources */,
 				3EAD6DB429FA4224004F7AEA /* 서로소 집합.swift in Sources */,
+				3EAD6DBB29FA74E8004F7AEA /* 크루스칼 알고리즘.swift in Sources */,
 				3EAD6D9929F6BFD1004F7AEA /* qr code.swift in Sources */,
 				3E49F1E729E572EA009F4779 /* 연속된 수의 합.swift in Sources */,
 				3E6E3AE129E06DB00088F983 /* 연속된 부분 수열의 합.swift in Sources */,

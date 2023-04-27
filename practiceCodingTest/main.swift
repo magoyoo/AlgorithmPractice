@@ -1,3 +1,3 @@
 import Foundation
 
-unionExample()
+kruskal()
