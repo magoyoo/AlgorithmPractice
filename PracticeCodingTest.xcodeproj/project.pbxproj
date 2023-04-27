@@ -60,6 +60,8 @@
 		3EAD6DAD29F8D41E004F7AEA /* 정수 찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6DAC29F8D41E004F7AEA /* 정수 찾기.swift */; };
 		3EAD6DAF29F8D5BB004F7AEA /* 문자열 정수의 합.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6DAE29F8D5BB004F7AEA /* 문자열 정수의 합.swift */; };
 		3EAD6DB129F94B5A004F7AEA /* 전보.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6DB029F94B5A004F7AEA /* 전보.swift */; };
+		3EAD6DB429FA4224004F7AEA /* 서로소 집합.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6DB329FA4224004F7AEA /* 서로소 집합.swift */; };
+		3EAD6DB729FA4EA8004F7AEA /* DisjointSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6DB629FA4EA8004F7AEA /* DisjointSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -129,6 +131,8 @@
 		3EAD6DAC29F8D41E004F7AEA /* 정수 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "정수 찾기.swift"; sourceTree = "<group>"; };
 		3EAD6DAE29F8D5BB004F7AEA /* 문자열 정수의 합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열 정수의 합.swift"; sourceTree = "<group>"; };
 		3EAD6DB029F94B5A004F7AEA /* 전보.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "전보.swift"; sourceTree = "<group>"; };
+		3EAD6DB329FA4224004F7AEA /* 서로소 집합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "서로소 집합.swift"; sourceTree = "<group>"; };
+		3EAD6DB629FA4EA8004F7AEA /* DisjointSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisjointSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +231,7 @@
 		3E6E3AB829D9A4700088F983 /* bookExample */ = {
 			isa = PBXGroup;
 			children = (
+				3EAD6DB229FA4205004F7AEA /* Chapter10 */,
 				3EAD6D5929F03513004F7AEA /* Chapter9 */,
 				3E6D72C829E15EA0002D9CC4 /* Chapter8 */,
 				3E6E3ADA29E0450E0088F983 /* Chapter6 */,
@@ -324,6 +329,7 @@
 		3EAD6D5C29F05C96004F7AEA /* dataStruct */ = {
 			isa = PBXGroup;
 			children = (
+				3EAD6DB529FA4A40004F7AEA /* disjointSet */,
 				3EAD6D6129F19A60004F7AEA /* heap */,
 			);
 			path = dataStruct;
@@ -336,6 +342,22 @@
 				3EAD6D5D29F05CA0004F7AEA /* MinHeap.swift */,
 			);
 			path = heap;
+			sourceTree = "<group>";
+		};
+		3EAD6DB229FA4205004F7AEA /* Chapter10 */ = {
+			isa = PBXGroup;
+			children = (
+				3EAD6DB329FA4224004F7AEA /* 서로소 집합.swift */,
+			);
+			path = Chapter10;
+			sourceTree = "<group>";
+		};
+		3EAD6DB529FA4A40004F7AEA /* disjointSet */ = {
+			isa = PBXGroup;
+			children = (
+				3EAD6DB629FA4EA8004F7AEA /* DisjointSet.swift */,
+			);
+			path = disjointSet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,6 +426,7 @@
 				3EAD6D5B29F03524004F7AEA /* dijkstra.swift in Sources */,
 				3EAD6DA329F6C525004F7AEA /* 공백으로 구분하기 1.swift in Sources */,
 				3E6E3ACA29DAE4390088F983 /* developmentGame.swift in Sources */,
+				3EAD6DB429FA4224004F7AEA /* 서로소 집합.swift in Sources */,
 				3EAD6D9929F6BFD1004F7AEA /* qr code.swift in Sources */,
 				3E49F1E729E572EA009F4779 /* 연속된 수의 합.swift in Sources */,
 				3E6E3AE129E06DB00088F983 /* 연속된 부분 수열의 합.swift in Sources */,
@@ -422,6 +445,7 @@
 				3E6E3AD729DEE6E90088F983 /*  shortestDistance.swift in Sources */,
 				3E6E3ACD29DB13F70088F983 /* practice.swift in Sources */,
 				3E49F1F129E5897A009F4779 /* 세균 증식.swift in Sources */,
+				3EAD6DB729FA4EA8004F7AEA /* DisjointSet.swift in Sources */,
 				3EAD6DA729F6C6A3004F7AEA /* 문자열 곱하기.swift in Sources */,
 				3E6E3ACF29DC74DF0088F983 /* ice.swift in Sources */,
 				3E6E3AB729D9A2150088F983 /* excuteFunc.swift in Sources */,
