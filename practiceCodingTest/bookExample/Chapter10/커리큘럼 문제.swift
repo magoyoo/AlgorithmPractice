@@ -1,1 +1,8 @@
 import Foundation
+
+func curriculum(){
+
+}
+
+
+
