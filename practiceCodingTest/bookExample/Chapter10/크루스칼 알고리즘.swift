@@ -29,7 +29,7 @@ func kruskal(){
     
     infos.sort { $0[2] < $1[2] }
     
-    var disJointSet = DisJointSet(n)
+    let disJointSet = DisJointSet(n)
     
     for info in infos {
         let xIndex = info[0] - 1
