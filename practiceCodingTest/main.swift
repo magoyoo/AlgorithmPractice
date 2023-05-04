@@ -1,3 +1,3 @@
 import Foundation
 
-numberCardGame2()
+makeOne()
