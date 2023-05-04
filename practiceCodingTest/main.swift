@@ -1,3 +1,3 @@
 import Foundation
 
-bigNumber2()
+numberCardGame2()
