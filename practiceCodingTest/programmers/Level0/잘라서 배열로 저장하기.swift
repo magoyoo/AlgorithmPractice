@@ -10,11 +10,11 @@ import Foundation
 func cutAndStoreAsArray(_ my_str:String, _ n:Int) -> [String] {
     
     var result: [String] = []
-    var stringArray = Array(my_str)
+    let stringArray = Array(my_str)
     var splitIndex = 0
     
     while splitIndex != my_str.count {
-        let startIndex = splitIndex
+        _ = splitIndex
         let endIndex = min(splitIndex + n, my_str.count)
         result.append(String(stringArray[splitIndex..<endIndex]))
         splitIndex = endIndex

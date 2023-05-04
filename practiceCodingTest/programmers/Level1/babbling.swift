@@ -2,7 +2,6 @@ import Foundation
 
 // TODO CHECK :: 다른 방식으로 풀기
 func babbling(_ babbling:[String]) -> Int{
-    let setBabbleing = Set(babbling)
     let conditions = ["aya", "ye", "woo", "ma"]
     var available: [String] = []
     var result = 0
