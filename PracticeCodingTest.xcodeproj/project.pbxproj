@@ -67,6 +67,7 @@
 		3EAD6E3229FE7221004F7AEA /* 도시 분할 계획 문제.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E3129FE7221004F7AEA /* 도시 분할 계획 문제.swift */; };
 		3EAD6E3429FE7230004F7AEA /* 커리큘럼 문제.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E3329FE7230004F7AEA /* 커리큘럼 문제.swift */; };
 		3EAD6E362A025FCD004F7AEA /* 위상정렬.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E352A025FCD004F7AEA /* 위상정렬.swift */; };
+		3EAD6E382A036701004F7AEA /* 거스름돈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E372A036701004F7AEA /* 거스름돈.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -143,6 +144,7 @@
 		3EAD6E3129FE7221004F7AEA /* 도시 분할 계획 문제.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "도시 분할 계획 문제.swift"; sourceTree = "<group>"; };
 		3EAD6E3329FE7230004F7AEA /* 커리큘럼 문제.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "커리큘럼 문제.swift"; sourceTree = "<group>"; };
 		3EAD6E352A025FCD004F7AEA /* 위상정렬.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "위상정렬.swift"; sourceTree = "<group>"; };
+		3EAD6E372A036701004F7AEA /* 거스름돈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "거스름돈.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +261,7 @@
 				3E6E3ABC29D9A7550088F983 /* totalMarginCoin.swift */,
 				3E6E3ABE29D9ABB90088F983 /* numberCardGame.swift */,
 				3E6E3AC029D9B6380088F983 /* untilOne.swift */,
+				3EAD6E372A036701004F7AEA /* 거스름돈.swift */,
 			);
 			path = Chapter3;
 			sourceTree = "<group>";
@@ -455,6 +458,7 @@
 				3E49F1EF29E58875009F4779 /* 문자열 정렬하기2.swift in Sources */,
 				3EAD6DAD29F8D41E004F7AEA /* 정수 찾기.swift in Sources */,
 				3E6E3AD929DF001C0088F983 /* performanceAppraisal.swift in Sources */,
+				3EAD6E382A036701004F7AEA /* 거스름돈.swift in Sources */,
 				3E6D72CE29E187C2002D9CC4 /* floorConstruction.swift in Sources */,
 				3EAD6DAF29F8D5BB004F7AEA /* 문자열 정수의 합.swift in Sources */,
 				3E6E3AC629DA7BCD0088F983 /* clock.swift in Sources */,
