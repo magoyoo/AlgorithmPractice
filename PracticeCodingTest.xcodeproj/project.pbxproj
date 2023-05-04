@@ -68,6 +68,7 @@
 		3EAD6E3429FE7230004F7AEA /* 커리큘럼 문제.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E3329FE7230004F7AEA /* 커리큘럼 문제.swift */; };
 		3EAD6E362A025FCD004F7AEA /* 위상정렬.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E352A025FCD004F7AEA /* 위상정렬.swift */; };
 		3EAD6E382A036701004F7AEA /* 거스름돈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E372A036701004F7AEA /* 거스름돈.swift */; };
+		3EAD6E3C2A036D1B004F7AEA /* 큰 수의 법칙.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E3B2A036D1B004F7AEA /* 큰 수의 법칙.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -145,6 +146,7 @@
 		3EAD6E3329FE7230004F7AEA /* 커리큘럼 문제.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "커리큘럼 문제.swift"; sourceTree = "<group>"; };
 		3EAD6E352A025FCD004F7AEA /* 위상정렬.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "위상정렬.swift"; sourceTree = "<group>"; };
 		3EAD6E372A036701004F7AEA /* 거스름돈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "거스름돈.swift"; sourceTree = "<group>"; };
+		3EAD6E3B2A036D1B004F7AEA /* 큰 수의 법칙.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "큰 수의 법칙.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +264,7 @@
 				3E6E3ABE29D9ABB90088F983 /* numberCardGame.swift */,
 				3E6E3AC029D9B6380088F983 /* untilOne.swift */,
 				3EAD6E372A036701004F7AEA /* 거스름돈.swift */,
+				3EAD6E3B2A036D1B004F7AEA /* 큰 수의 법칙.swift */,
 			);
 			path = Chapter3;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EAD6E3C2A036D1B004F7AEA /* 큰 수의 법칙.swift in Sources */,
 				3E6D72D729E1CB31002D9CC4 /* babbling.swift in Sources */,
 				3EAD6DA929F8D17D004F7AEA /* 문자열의 뒤의 n글자.swift in Sources */,
 				3E6E3ABF29D9ABB90088F983 /* numberCardGame.swift in Sources */,
