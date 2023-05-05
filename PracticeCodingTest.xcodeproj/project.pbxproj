@@ -71,6 +71,7 @@
 		3EAD6E3C2A036D1B004F7AEA /* 큰 수의 법칙.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E3B2A036D1B004F7AEA /* 큰 수의 법칙.swift */; };
 		3EAD6E3F2A036F4D004F7AEA /* 숫자 카드 게임.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E3E2A036F4D004F7AEA /* 숫자 카드 게임.swift */; };
 		3EAD6E412A037329004F7AEA /* 1이 될 때까지.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E402A037329004F7AEA /* 1이 될 때까지.swift */; };
+		3EAD6E432A04AA93004F7AEA /* 예제 4-1 상하좌우.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E422A04AA93004F7AEA /* 예제 4-1 상하좌우.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -151,6 +152,7 @@
 		3EAD6E3B2A036D1B004F7AEA /* 큰 수의 법칙.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "큰 수의 법칙.swift"; sourceTree = "<group>"; };
 		3EAD6E3E2A036F4D004F7AEA /* 숫자 카드 게임.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "숫자 카드 게임.swift"; sourceTree = "<group>"; };
 		3EAD6E402A037329004F7AEA /* 1이 될 때까지.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1이 될 때까지.swift"; sourceTree = "<group>"; };
+		3EAD6E422A04AA93004F7AEA /* 예제 4-1 상하좌우.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "예제 4-1 상하좌우.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +284,7 @@
 				3E6E3AC529DA7BCD0088F983 /* clock.swift */,
 				3E6E3AC729DAB1110088F983 /* royalNight.swift */,
 				3E6E3AC929DAE4390088F983 /* developmentGame.swift */,
+				3EAD6E422A04AA93004F7AEA /* 예제 4-1 상하좌우.swift */,
 			);
 			path = Chapter4;
 			sourceTree = "<group>";
@@ -500,6 +503,7 @@
 				3E49F1F529E819F0009F4779 /* 아방가르드 스타일.swift in Sources */,
 				3EAD6D8F29F295A4004F7AEA /* 개선된 다익스트라.swift in Sources */,
 				3E6E3AC129D9B6380088F983 /* untilOne.swift in Sources */,
+				3EAD6E432A04AA93004F7AEA /* 예제 4-1 상하좌우.swift in Sources */,
 				3E6D72CC29E178AC002D9CC4 /* antWarrior.swift in Sources */,
 				3EAD6D9129F2A0BD004F7AEA /* 기본 다익스트라.swift in Sources */,
 				3E6E3ADC29E0452B0088F983 /* binarySearch.swift in Sources */,
