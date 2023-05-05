@@ -1,3 +1,3 @@
 import Foundation
 
-lrud2()
+findThree()
