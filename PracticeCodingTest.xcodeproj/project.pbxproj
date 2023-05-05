@@ -73,6 +73,7 @@
 		3EAD6E412A037329004F7AEA /* 1이 될 때까지.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E402A037329004F7AEA /* 1이 될 때까지.swift */; };
 		3EAD6E432A04AA93004F7AEA /* 예제 4-1 상하좌우.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E422A04AA93004F7AEA /* 예제 4-1 상하좌우.swift */; };
 		3EAD6E452A04AD90004F7AEA /* 예제 4-2 시각.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E442A04AD90004F7AEA /* 예제 4-2 시각.swift */; };
+		3EAD6E492A04B278004F7AEA /* 실전문제2 왕실의 나이트.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E482A04B278004F7AEA /* 실전문제2 왕실의 나이트.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -155,6 +156,7 @@
 		3EAD6E402A037329004F7AEA /* 1이 될 때까지.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1이 될 때까지.swift"; sourceTree = "<group>"; };
 		3EAD6E422A04AA93004F7AEA /* 예제 4-1 상하좌우.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "예제 4-1 상하좌우.swift"; sourceTree = "<group>"; };
 		3EAD6E442A04AD90004F7AEA /* 예제 4-2 시각.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "예제 4-2 시각.swift"; sourceTree = "<group>"; };
+		3EAD6E482A04B278004F7AEA /* 실전문제2 왕실의 나이트.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제2 왕실의 나이트.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +290,7 @@
 				3E6E3AC929DAE4390088F983 /* developmentGame.swift */,
 				3EAD6E422A04AA93004F7AEA /* 예제 4-1 상하좌우.swift */,
 				3EAD6E442A04AD90004F7AEA /* 예제 4-2 시각.swift */,
+				3EAD6E482A04B278004F7AEA /* 실전문제2 왕실의 나이트.swift */,
 			);
 			path = Chapter4;
 			sourceTree = "<group>";
@@ -477,6 +480,7 @@
 				3EAD6DAD29F8D41E004F7AEA /* 정수 찾기.swift in Sources */,
 				3E6E3AD929DF001C0088F983 /* performanceAppraisal.swift in Sources */,
 				3EAD6E382A036701004F7AEA /* 거스름돈.swift in Sources */,
+				3EAD6E492A04B278004F7AEA /* 실전문제2 왕실의 나이트.swift in Sources */,
 				3E6D72CE29E187C2002D9CC4 /* floorConstruction.swift in Sources */,
 				3EAD6DAF29F8D5BB004F7AEA /* 문자열 정수의 합.swift in Sources */,
 				3E6E3AC629DA7BCD0088F983 /* clock.swift in Sources */,
