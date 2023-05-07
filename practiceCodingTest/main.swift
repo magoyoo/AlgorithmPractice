@@ -1,3 +1,3 @@
 import Foundation
 
-makeGame()
+makeGame3()
