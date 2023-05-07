@@ -39,23 +39,6 @@ func countIceCreams2(){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 func countIceCreams() {
     let nm = readLine()!.split(separator: " ").map{ Int(String($0))! }
     let n = nm[0]
