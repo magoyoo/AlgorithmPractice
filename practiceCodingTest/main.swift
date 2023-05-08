@@ -1,4 +1,4 @@
 import Foundation
 
-swapElement()
+makeDduck()
 

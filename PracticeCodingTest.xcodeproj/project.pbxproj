@@ -85,6 +85,8 @@
 		3EAD6EA82A08DE81004F7AEA /* 실전문제 6-2 위에서 아래로.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6EA72A08DE81004F7AEA /* 실전문제 6-2 위에서 아래로.swift */; };
 		3EAD6EAA2A08DF7D004F7AEA /* 실전문제 6-3 성적이 낮은 순서로 학생 출력하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6EA92A08DF7D004F7AEA /* 실전문제 6-3 성적이 낮은 순서로 학생 출력하기.swift */; };
 		3EAD6EAC2A08E564004F7AEA /* 실전문제 6-4 두배열의 원소 교체.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6EAB2A08E564004F7AEA /* 실전문제 6-4 두배열의 원소 교체.swift */; };
+		3EAD6EAF2A08ED42004F7AEA /* 실전문제 7-2 부품 찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6EAE2A08ED42004F7AEA /* 실전문제 7-2 부품 찾기.swift */; };
+		3EAD6EB12A08EF5B004F7AEA /* 실전문제 7-3 떡볶이 떡 만들기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6EB02A08EF5B004F7AEA /* 실전문제 7-3 떡볶이 떡 만들기.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -179,6 +181,8 @@
 		3EAD6EA72A08DE81004F7AEA /* 실전문제 6-2 위에서 아래로.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제 6-2 위에서 아래로.swift"; sourceTree = "<group>"; };
 		3EAD6EA92A08DF7D004F7AEA /* 실전문제 6-3 성적이 낮은 순서로 학생 출력하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제 6-3 성적이 낮은 순서로 학생 출력하기.swift"; sourceTree = "<group>"; };
 		3EAD6EAB2A08E564004F7AEA /* 실전문제 6-4 두배열의 원소 교체.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제 6-4 두배열의 원소 교체.swift"; sourceTree = "<group>"; };
+		3EAD6EAE2A08ED42004F7AEA /* 실전문제 7-2 부품 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제 7-2 부품 찾기.swift"; sourceTree = "<group>"; };
+		3EAD6EB02A08EF5B004F7AEA /* 실전문제 7-3 떡볶이 떡 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제 7-3 떡볶이 떡 만들기.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +281,7 @@
 		3E6E3AB829D9A4700088F983 /* bookExample */ = {
 			isa = PBXGroup;
 			children = (
+				3EAD6EAD2A08ED2A004F7AEA /* Chapter7 */,
 				3EAD6DB229FA4205004F7AEA /* Chapter10 */,
 				3EAD6D5929F03513004F7AEA /* Chapter9 */,
 				3E6D72C829E15EA0002D9CC4 /* Chapter8 */,
@@ -437,6 +442,15 @@
 			path = Stack;
 			sourceTree = "<group>";
 		};
+		3EAD6EAD2A08ED2A004F7AEA /* Chapter7 */ = {
+			isa = PBXGroup;
+			children = (
+				3EAD6EAE2A08ED42004F7AEA /* 실전문제 7-2 부품 찾기.swift */,
+				3EAD6EB02A08EF5B004F7AEA /* 실전문제 7-3 떡볶이 떡 만들기.swift */,
+			);
+			path = Chapter7;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -525,6 +539,7 @@
 				3EAD6DAD29F8D41E004F7AEA /* 정수 찾기.swift in Sources */,
 				3EAD6E5A2A07C1ED004F7AEA /* 실전문제4 미로탈출.swift in Sources */,
 				3EAD6E512A07854F004F7AEA /* 실전문제2 왕실의 나이트2.swift in Sources */,
+				3EAD6EB12A08EF5B004F7AEA /* 실전문제 7-3 떡볶이 떡 만들기.swift in Sources */,
 				3E6E3AD929DF001C0088F983 /* performanceAppraisal.swift in Sources */,
 				3EAD6E382A036701004F7AEA /* 거스름돈.swift in Sources */,
 				3EAD6EA22A08D018004F7AEA /* 실전문제3 음료수 얼려 먹기2.swift in Sources */,
@@ -562,6 +577,7 @@
 				3E49F1F529E819F0009F4779 /* 아방가르드 스타일.swift in Sources */,
 				3EAD6D8F29F295A4004F7AEA /* 개선된 다익스트라.swift in Sources */,
 				3E6E3AC129D9B6380088F983 /* untilOne.swift in Sources */,
+				3EAD6EAF2A08ED42004F7AEA /* 실전문제 7-2 부품 찾기.swift in Sources */,
 				3EAD6EA42A08D38D004F7AEA /* 실전문제4 미로탈출2.swift in Sources */,
 				3EAD6E432A04AA93004F7AEA /* 예제 4-1 상하좌우.swift in Sources */,
 				3E6D72CC29E178AC002D9CC4 /* antWarrior.swift in Sources */,
