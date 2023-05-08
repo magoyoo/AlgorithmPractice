@@ -79,6 +79,9 @@
 		3EAD6E532A0787CF004F7AEA /* 실전문제3 게임 개발2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E522A0787CF004F7AEA /* 실전문제3 게임 개발2.swift */; };
 		3EAD6E562A079D8C004F7AEA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E552A079D8C004F7AEA /* Stack.swift */; };
 		3EAD6E582A07B790004F7AEA /* 실전문제3 음료수 얼려 먹기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E572A07B790004F7AEA /* 실전문제3 음료수 얼려 먹기.swift */; };
+		3EAD6E5A2A07C1ED004F7AEA /* 실전문제4 미로탈출.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E592A07C1ED004F7AEA /* 실전문제4 미로탈출.swift */; };
+		3EAD6EA22A08D018004F7AEA /* 실전문제3 음료수 얼려 먹기2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6EA12A08D018004F7AEA /* 실전문제3 음료수 얼려 먹기2.swift */; };
+		3EAD6EA42A08D38D004F7AEA /* 실전문제4 미로탈출2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6EA32A08D38D004F7AEA /* 실전문제4 미로탈출2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -167,6 +170,9 @@
 		3EAD6E522A0787CF004F7AEA /* 실전문제3 게임 개발2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제3 게임 개발2.swift"; sourceTree = "<group>"; };
 		3EAD6E552A079D8C004F7AEA /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		3EAD6E572A07B790004F7AEA /* 실전문제3 음료수 얼려 먹기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제3 음료수 얼려 먹기.swift"; sourceTree = "<group>"; };
+		3EAD6E592A07C1ED004F7AEA /* 실전문제4 미로탈출.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제4 미로탈출.swift"; sourceTree = "<group>"; };
+		3EAD6EA12A08D018004F7AEA /* 실전문제3 음료수 얼려 먹기2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제3 음료수 얼려 먹기2.swift"; sourceTree = "<group>"; };
+		3EAD6EA32A08D38D004F7AEA /* 실전문제4 미로탈출2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제4 미로탈출2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,6 +322,9 @@
 				3E6E3AD029DDA2E30088F983 /* dfs.swift */,
 				3E6E3AD629DEE6E90088F983 /*  shortestDistance.swift */,
 				3EAD6E572A07B790004F7AEA /* 실전문제3 음료수 얼려 먹기.swift */,
+				3EAD6E592A07C1ED004F7AEA /* 실전문제4 미로탈출.swift */,
+				3EAD6EA12A08D018004F7AEA /* 실전문제3 음료수 얼려 먹기2.swift */,
+				3EAD6EA32A08D38D004F7AEA /* 실전문제4 미로탈출2.swift */,
 			);
 			path = Chapter5;
 			sourceTree = "<group>";
@@ -503,9 +512,11 @@
 				3E49F1EF29E58875009F4779 /* 문자열 정렬하기2.swift in Sources */,
 				3EAD6E452A04AD90004F7AEA /* 예제 4-2 시각.swift in Sources */,
 				3EAD6DAD29F8D41E004F7AEA /* 정수 찾기.swift in Sources */,
+				3EAD6E5A2A07C1ED004F7AEA /* 실전문제4 미로탈출.swift in Sources */,
 				3EAD6E512A07854F004F7AEA /* 실전문제2 왕실의 나이트2.swift in Sources */,
 				3E6E3AD929DF001C0088F983 /* performanceAppraisal.swift in Sources */,
 				3EAD6E382A036701004F7AEA /* 거스름돈.swift in Sources */,
+				3EAD6EA22A08D018004F7AEA /* 실전문제3 음료수 얼려 먹기2.swift in Sources */,
 				3EAD6E492A04B278004F7AEA /* 실전문제2 왕실의 나이트.swift in Sources */,
 				3E6D72CE29E187C2002D9CC4 /* floorConstruction.swift in Sources */,
 				3EAD6DAF29F8D5BB004F7AEA /* 문자열 정수의 합.swift in Sources */,
@@ -539,6 +550,7 @@
 				3E49F1F529E819F0009F4779 /* 아방가르드 스타일.swift in Sources */,
 				3EAD6D8F29F295A4004F7AEA /* 개선된 다익스트라.swift in Sources */,
 				3E6E3AC129D9B6380088F983 /* untilOne.swift in Sources */,
+				3EAD6EA42A08D38D004F7AEA /* 실전문제4 미로탈출2.swift in Sources */,
 				3EAD6E432A04AA93004F7AEA /* 예제 4-1 상하좌우.swift in Sources */,
 				3E6D72CC29E178AC002D9CC4 /* antWarrior.swift in Sources */,
 				3EAD6D9129F2A0BD004F7AEA /* 기본 다익스트라.swift in Sources */,
