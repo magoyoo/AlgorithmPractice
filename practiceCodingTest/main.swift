@@ -1,4 +1,4 @@
 import Foundation
 
-exitMirror2()
+swapElement()
 

@@ -82,6 +82,9 @@
 		3EAD6E5A2A07C1ED004F7AEA /* 실전문제4 미로탈출.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6E592A07C1ED004F7AEA /* 실전문제4 미로탈출.swift */; };
 		3EAD6EA22A08D018004F7AEA /* 실전문제3 음료수 얼려 먹기2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6EA12A08D018004F7AEA /* 실전문제3 음료수 얼려 먹기2.swift */; };
 		3EAD6EA42A08D38D004F7AEA /* 실전문제4 미로탈출2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6EA32A08D38D004F7AEA /* 실전문제4 미로탈출2.swift */; };
+		3EAD6EA82A08DE81004F7AEA /* 실전문제 6-2 위에서 아래로.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6EA72A08DE81004F7AEA /* 실전문제 6-2 위에서 아래로.swift */; };
+		3EAD6EAA2A08DF7D004F7AEA /* 실전문제 6-3 성적이 낮은 순서로 학생 출력하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6EA92A08DF7D004F7AEA /* 실전문제 6-3 성적이 낮은 순서로 학생 출력하기.swift */; };
+		3EAD6EAC2A08E564004F7AEA /* 실전문제 6-4 두배열의 원소 교체.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6EAB2A08E564004F7AEA /* 실전문제 6-4 두배열의 원소 교체.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -173,6 +176,9 @@
 		3EAD6E592A07C1ED004F7AEA /* 실전문제4 미로탈출.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제4 미로탈출.swift"; sourceTree = "<group>"; };
 		3EAD6EA12A08D018004F7AEA /* 실전문제3 음료수 얼려 먹기2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제3 음료수 얼려 먹기2.swift"; sourceTree = "<group>"; };
 		3EAD6EA32A08D38D004F7AEA /* 실전문제4 미로탈출2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제4 미로탈출2.swift"; sourceTree = "<group>"; };
+		3EAD6EA72A08DE81004F7AEA /* 실전문제 6-2 위에서 아래로.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제 6-2 위에서 아래로.swift"; sourceTree = "<group>"; };
+		3EAD6EA92A08DF7D004F7AEA /* 실전문제 6-3 성적이 낮은 순서로 학생 출력하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제 6-3 성적이 낮은 순서로 학생 출력하기.swift"; sourceTree = "<group>"; };
+		3EAD6EAB2A08E564004F7AEA /* 실전문제 6-4 두배열의 원소 교체.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제 6-4 두배열의 원소 교체.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -355,6 +361,9 @@
 			children = (
 				3E6E3ADB29E0452B0088F983 /* binarySearch.swift */,
 				3E6E3ADD29E062E90088F983 /* searchPart.swift */,
+				3EAD6EA72A08DE81004F7AEA /* 실전문제 6-2 위에서 아래로.swift */,
+				3EAD6EA92A08DF7D004F7AEA /* 실전문제 6-3 성적이 낮은 순서로 학생 출력하기.swift */,
+				3EAD6EAB2A08E564004F7AEA /* 실전문제 6-4 두배열의 원소 교체.swift */,
 			);
 			path = Chapter6;
 			sourceTree = "<group>";
@@ -493,6 +502,8 @@
 				3E6E3ABF29D9ABB90088F983 /* numberCardGame.swift in Sources */,
 				3E6E3AD129DDA2E30088F983 /* dfs.swift in Sources */,
 				3EAD6DA529F6C5DF004F7AEA /* 카운트 다운.swift in Sources */,
+				3EAD6EAA2A08DF7D004F7AEA /* 실전문제 6-3 성적이 낮은 순서로 학생 출력하기.swift in Sources */,
+				3EAD6EAC2A08E564004F7AEA /* 실전문제 6-4 두배열의 원소 교체.swift in Sources */,
 				3EAD6D5B29F03524004F7AEA /* dijkstra.swift in Sources */,
 				3EAD6E412A037329004F7AEA /* 1이 될 때까지.swift in Sources */,
 				3EAD6DA329F6C525004F7AEA /* 공백으로 구분하기 1.swift in Sources */,
@@ -543,6 +554,7 @@
 				3E6E3AC829DAB1110088F983 /* royalNight.swift in Sources */,
 				3EAD6D9529F2D9B7004F7AEA /* 플로이드 워셜.swift in Sources */,
 				3E6E3ABA29D9A5B00088F983 /* bigNum.swift in Sources */,
+				3EAD6EA82A08DE81004F7AEA /* 실전문제 6-2 위에서 아래로.swift in Sources */,
 				3E6E3ABD29D9A7550088F983 /* totalMarginCoin.swift in Sources */,
 				3EAD6D5E29F05CA0004F7AEA /* MinHeap.swift in Sources */,
 				3EAD6E562A079D8C004F7AEA /* Stack.swift in Sources */,
