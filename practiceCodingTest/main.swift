@@ -1,4 +1,4 @@
 import Foundation
 
-makeOne2()
+efficientMoney2()
 
