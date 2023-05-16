@@ -91,6 +91,7 @@
 		3EAD6F2D2A0B8F74004F7AEA /* 실전문제 8-3 개미 전사.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6F2C2A0B8F74004F7AEA /* 실전문제 8-3 개미 전사.swift */; };
 		3EAD6F2F2A0B932D004F7AEA /* 실전문제 8-4 바닥 공사.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6F2E2A0B932D004F7AEA /* 실전문제 8-4 바닥 공사.swift */; };
 		3EAD6F312A0B9582004F7AEA /* 실전문제 8-5 효율적인 화폐 구성.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6F302A0B9582004F7AEA /* 실전문제 8-5 효율적인 화폐 구성.swift */; };
+		3EAD6FE52A0C0BF9004F7AEA /* 9-2 미래도시.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD6FE42A0C0BF9004F7AEA /* 9-2 미래도시.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -191,6 +192,7 @@
 		3EAD6F2C2A0B8F74004F7AEA /* 실전문제 8-3 개미 전사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제 8-3 개미 전사.swift"; sourceTree = "<group>"; };
 		3EAD6F2E2A0B932D004F7AEA /* 실전문제 8-4 바닥 공사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제 8-4 바닥 공사.swift"; sourceTree = "<group>"; };
 		3EAD6F302A0B9582004F7AEA /* 실전문제 8-5 효율적인 화폐 구성.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "실전문제 8-5 효율적인 화폐 구성.swift"; sourceTree = "<group>"; };
+		3EAD6FE42A0C0BF9004F7AEA /* 9-2 미래도시.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9-2 미래도시.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -402,6 +404,7 @@
 				3EAD6D9429F2D9B7004F7AEA /* 플로이드 워셜.swift */,
 				3EAD6D9629F4FFBB004F7AEA /* 미래도시.swift */,
 				3EAD6DB029F94B5A004F7AEA /* 전보.swift */,
+				3EAD6FE42A0C0BF9004F7AEA /* 9-2 미래도시.swift */,
 			);
 			path = Chapter9;
 			sourceTree = "<group>";
@@ -576,6 +579,7 @@
 				3EAD6E3F2A036F4D004F7AEA /* 숫자 카드 게임.swift in Sources */,
 				3E49F1E929E57C06009F4779 /* 문자열 밀기.swift in Sources */,
 				3E6E3ADE29E062E90088F983 /* searchPart.swift in Sources */,
+				3EAD6FE52A0C0BF9004F7AEA /* 9-2 미래도시.swift in Sources */,
 				3EAD6DB129F94B5A004F7AEA /* 전보.swift in Sources */,
 				3E6D72D029E18C42002D9CC4 /* efficientMoney.swift in Sources */,
 				3E6D72CA29E15EAF002D9CC4 /* makeOne.swift in Sources */,
